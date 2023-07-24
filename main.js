@@ -29,7 +29,7 @@ function gotPoses(results){
 }
 function draw(){
     image(video, 0, 0, 300, 300);
-    image(bigode, X, Y, 100, 100);
+    image(bigode, X, Y, 75, 75);
 }
 function takeSnapshot(){
     save("bigode.png");
